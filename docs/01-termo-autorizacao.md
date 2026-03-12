@@ -2,8 +2,8 @@
 
 > **Status:**  (adicione um "x" para completar cada nível)
 
-- [x] Visualizado
-- [ ] Pendente
+- [ ] Visualizado
+- [x] Pendente
 - [ ] Enviado ao professor
 - [ ] Aprovado  
 
@@ -15,16 +15,16 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome do Grupo | |
-| Integrantes | |
-| E-mail de contato | |
-| Telefone de contato | |
+| Nome do Grupo | Grupo 8 |
+| Integrantes | Gabriel Aparecido Francisco; João Gabriel Negrini Dias; Manuel Augustos dos Santos Dias; Rafael André Tadeu Figuereido |
+| E-mail de contato | jnddnegrini@gmail.com |
+| Telefone de contato | (35) 9748-0079 |
 
 ## 2. Dados da Comunidade / Instituição Parceira
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome da instituição | |
+| Nome da instituição | Tarso de Coimbra |
 | Endereço | |
 | Nome do responsável | |
 | Cargo/Função | |
@@ -45,7 +45,7 @@
 
 ### Breve descrição da aplicação e sua finalidade
 
-(Descreva aqui o software que será desenvolvido, seus objetivos e como atende às demandas da comunidade.)
+(Nossa apresentação sera uma plataforma de acessibilidade assistiva voltada ao ensino e prática da computação. O seu objetivo principal é democratizar o  desenvolvimento de tecnologia, oferecendo ferramentas adaptativas (como comandos de voz e interfaces simplificadas) que permitam a pessoas com deficiência aprender programação e utilizar sistemas complexos com autonomia, promovendo sua inclusão digital e no mercado de trabalho de TI.)
 
 ## 4. Levantamento de Demandas da Comunidade
 
