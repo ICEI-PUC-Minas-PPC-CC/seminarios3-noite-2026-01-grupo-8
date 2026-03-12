@@ -10,16 +10,16 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| **Nome do Grupo** | *(preencher)* |
-| **Integrantes** | *(listar todos)* |
-| **E-mail de contato** | *(preencher)* |
-| **Comunidade parceira** | *(preencher)* |
+| **Nome do Grupo** | *(Inclusão Digital)* |
+| **Integrantes** | *(Gabriel Aparecido Francisco; João Gabriel Negrini Dias; Manuel Augusto Dias dos Santos; Rafael André Tadeu Fiqueiredo)* |
+| **E-mail de contato** | *(jgnddnegrini@gmail.com)* |
+| **Comunidade parceira** | *(Tarso de Coimbra)* |
 
 ---
 
 ## 🎯 Software a Ser Desenvolvido
 
-(Descreva brevemente a aplicação que será desenvolvida e seu objetivo.)
+(Nossa apresentação sera uma plataforma de acessibilidade assistiva voltada ao ensino e prática da computação. O seu objetivo principal é democratizar o  desenvolvimento de tecnologia, oferecendo ferramentas adaptativas (como comandos de voz e interfaces simplificadas) que permitam a pessoas com deficiência aprender programação e utilizar sistemas complexos com autonomia, promovendo sua inclusão digital e no mercado de trabalho de TI.)
 
 ---
 
