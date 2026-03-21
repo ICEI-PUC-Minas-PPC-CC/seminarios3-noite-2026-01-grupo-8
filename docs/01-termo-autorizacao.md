@@ -40,7 +40,7 @@
 | Público-alvo | Pessoas surdas, pessoas com deficiência auditiva, estudantes e participantes de eventos em ambientes sem intérpretes de Libras disponíveis.|
 | Nº estimado de usuários | 10 a 50 usuários simultâneos |
 | Faixa etária do público | Todas idades |
-| Tecnologias previstas | Linguagens: Java(Back) e JavaScript(Front com react ou HTML/CSS) Comunicação: WebSockets e Processamento de Voz: Google Cloud Speech-to-Text API ou OpenAI Whisper API |
+| Tecnologias previstas | Linguagens: Java(Back) e JavaScript(Front com react ou HTML/CSS) Comunicação: WebSockets e Processamento de Voz: Google Cloud Speech-to-Text API ou OpenAI Whisper API E VLIBRAS|
 
 | Hospedagem prevista | Google Cloud Platform (GCP) ou Heroku (pela facilidade de integração com APIs de áudio) |
 
