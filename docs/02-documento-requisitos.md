@@ -1,23 +1,23 @@
 # 02 — Documento de Requisitos do Software
 
-> **Grupo:** *(preencher)*  
-> **Aplicação:** *(preencher)*  
-> **Comunidade:** *(preencher)*
+> **Grupo:** *GRUPO 8*  
+> **Aplicação:** *Plataforma de Legendas em Tempo Real*  
+> **Comunidade:** *TARSO DE COIMBRA*
 
 ---
 
 ## 1. Visão Geral
 
-(Descreva em poucas frases o que é a aplicação, para quem ela é destinada e qual problema ela resolve.)
+A aplicação é uma plataforma de acessibilidade assistiva projetada para democratizar o acesso à informação falada em tempo real. O sistema funciona captando o áudio do microfone de um palestrante ou professor e, através do processamento de linguagem natural (PNL), converte a fala em texto instantâneo.
 
 ## 2. Público-Alvo
 
 | Campo | Informação |
 | ------- | ----------- |
-| Perfil dos usuários | |
-| Faixa etária | |
-| Necessidades de acessibilidade | |
-| Nível de familiaridade com tecnologia | |
+| Perfil dos usuários | Pessoas surdas (que utilizam ou não Libras) e pessoas com deficiência auditiva parcial. O perfil engloba estudantes universitários, alunos de cursos técnicos e profissionais que participam de reuniões e palestras presenciais ou híbridas. |
+| Faixa etária | TODAS AS IDADES |
+| Necessidades de acessibilidade | Tradução visual instantânea de estímulos sonoros (fala); interface com alto contraste para evitar fadiga visual; suporte a fontes escaláveis; e baixa latência na exibição do texto para garantir a sincronia com o orador |
+| Nível de familiaridade com tecnologia | De Básico a Intermediário |
 
 > **Lembrete (Tarso de Coimbra):** Os usuários podem ter deficiência auditiva/surdez. A interface deve ser **visual, intuitiva e de baixa complexidade**. Priorize elementos visuais (imagens, ícones, cores) sobre texto extenso.
 
