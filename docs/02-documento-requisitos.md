@@ -17,7 +17,7 @@ A aplicação é uma plataforma de acessibilidade assistiva projetada para democ
 | Perfil dos usuários | Pessoas surdas (que utilizam ou não Libras) e pessoas com deficiência auditiva parcial. O perfil engloba estudantes universitários, alunos de cursos técnicos e profissionais que participam de reuniões e palestras presenciais ou híbridas. |
 | Faixa etária | TODAS AS IDADES |
 | Necessidades de acessibilidade | Tradução visual instantânea de estímulos sonoros (fala); interface com alto contraste para evitar fadiga visual; suporte a fontes escaláveis; e baixa latência na exibição do texto para garantir a sincronia com o orador |
-| Nível de familiaridade com tecnologia | De Básico a Intermediário |
+| Nível de familiaridade com tecnologia | De Básico a Intermediário, a aplicação deve ser intuitiva (plug-and-play), exigindo apenas que o usuário saiba acessar um link ou ler um QR Code para entrar na sala de legendas, sem configurações complexas.|
 
 > **Lembrete (Tarso de Coimbra):** Os usuários podem ter deficiência auditiva/surdez. A interface deve ser **visual, intuitiva e de baixa complexidade**. Priorize elementos visuais (imagens, ícones, cores) sobre texto extenso.
 
