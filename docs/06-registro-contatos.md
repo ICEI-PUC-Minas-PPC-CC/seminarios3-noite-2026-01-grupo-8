@@ -1,7 +1,7 @@
 # 06 — Registro de Contatos com a Comunidade
 
-> **Grupo:** *(preencher)*  
-> **Comunidade:** *(preencher)*
+> **Grupo:** *GRUPO 8*  
+> **Comunidade:** *TARSO DE COIMBRA*
 
 ---
 
@@ -16,14 +16,14 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data | |
-| Forma de contato | *(Presencial / Online / E-mail / Telefone / WhatsApp)* |
-| Participantes do grupo | |
+| Data | 06/03/2026 |
+| Forma de contato | ONLINE, ATRAVES DE UMA REUNIAO |
+| Participantes do grupo | JOAO GABRIEL NEGRINI DIAS, MANUEL AUGUSTO DIAS DOS SANTOS, GABRIEL APARECIDO FRANCISCO E RAFAEL ANDRE TADEU FIGUEIREDO|
 | Participantes da comunidade | |
-| Objetivo do contato | |
+| Objetivo do contato | DESENVOLVER UM SOFTWARE QUE CONSIGA AGREGAR DE FORMA POSITIVA NA COMUNIDADE DA TARSO|
 
 **Resumo do que foi tratado:**
-(Descrever o que foi discutido, decisões tomadas, demandas identificadas.)
+(Iremos desenvolver uma aplicação que é uma plataforma de acessibilidade assistiva projetada para democratizar o acesso à informação falada em tempo real. O sistema funciona captando o áudio do microfone de um palestrante ou professor e, através de processamento de linguagem natural (NLP), converte a fala em texto instantaneamente.)
 
 **Encaminhamentos:**
 (O que ficou combinado para a próxima interação?)
