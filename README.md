@@ -10,10 +10,10 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| **Nome do Grupo** | *(Inclusão Digital)* |
-| **Integrantes** | *(Gabriel Aparecido Francisco; João Gabriel Negrini Dias; Manuel Augusto Dias dos Santos; Rafael André Tadeu Fiqueiredo)* |
-| **E-mail de contato** | *(jgnddnegrini@gmail.com)* |
-| **Comunidade parceira** | *(Tarso de Coimbra)* |
+| **Nome do Grupo** | *Inclusão Digital* |
+| **Integrantes** | *Gabriel Aparecido Francisco; João Gabriel Negrini Dias; Manuel Augusto Dias dos Santos; Rafael André Tadeu Fiqueiredo* |
+| **E-mail de contato** | *jgnddnegrini@gmail.com* |
+| **Comunidade parceira** | *Tarso de Coimbra* |
 
 ---
 
