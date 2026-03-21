@@ -25,10 +25,10 @@ Esta plataforma de acessibilidade foi concebida para preencher a lacuna de comun
 
 | ID | Requisito | Prioridade | Origem da demanda |
 | ---- | ---------- | :----------: | ------------------ |
-| RF01 | | Consumo Otimizado de Dados: A transmissão de texto via WebSockets deve ser leve, permitindo o funcionamento estável mesmo em redes móveis (3G/4G/5G) de baixa oscilação. | Alta | Efiencia;
-| RF02 | | Exibição de Legendas Instantâneas: A aplicação deve exibir o texto convertido na tela do usuário com atualização automática, sem necessidade de recarregar a página. | Alta | Reunião com Tarso de Coimbra;
-| RF03 | | Captação e Transmissão de Áudio: O sistema deve permitir que o palestrante ative o microfone para captar a fala e enviá-la ao processamento em tempo real. | Alta | Reunião com Tarso de Coimbra;
-| RF04 | | Indicador de Status de Conexão: O sistema deve exibir visualmente se o áudio está sendo captado e se a conexão com o servidor está ativa (status "Ao Vivo"). | Media | Feedback do Usuário;
+| RF01 | Consumo Otimizado de Dados: A transmissão de texto via WebSockets deve ser leve, permitindo o funcionamento estável mesmo em redes móveis (3G/4G/5G) de baixa oscilação. | Alta | Efiencia;
+| RF02 | Exibição de Legendas Instantâneas: A aplicação deve exibir o texto convertido na tela do usuário com atualização automática, sem necessidade de recarregar a página. | Alta | Reunião com Tarso de Coimbra;
+| RF03 | Captação e Transmissão de Áudio: O sistema deve permitir que o palestrante ative o microfone para captar a fala e enviá-la ao processamento em tempo real. | Alta | Reunião com Tarso de Coimbra;
+| RF04 | Indicador de Status de Conexão: O sistema deve exibir visualmente se o áudio está sendo captado e se a conexão com o servidor está ativa (status "Ao Vivo"). | Media | Feedback do Usuário;
 | RF05 | Privacidade de Dados: O processamento de áudio deve ser efêmero, garantindo que as falas captadas não sejam armazenadas ou utilizadas para outros fins após a exibição do texto. | Media | Feedback do Usuário; 
 
 ## 4. Requisitos Não Funcionais
