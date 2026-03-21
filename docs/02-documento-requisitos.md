@@ -63,7 +63,7 @@ A aplicação é uma plataforma de acessibilidade assistiva projetada para democ
 
 ## 7. Protótipo / Wireframes
 
-(Inclua esboços das telas principais ou links para protótipos — mesmo rascunhos simples em papel são válidos. Salvem imagens dos wireframes em `evidencias/prints/`.)
+(https://modify-beluga-37826489.figma.site/)
 
 ## 8. Escopo Mínimo Viável (MVP)
 
