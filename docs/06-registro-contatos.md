@@ -23,7 +23,7 @@
 | Objetivo do contato | DESENVOLVER UM SOFTWARE QUE CONSIGA AGREGAR DE FORMA POSITIVA NA COMUNIDADE DA TARSO|
 
 **Resumo do que foi tratado:**
-(Iremos desenvolver uma aplicação que é uma plataforma de acessibilidade assistiva projetada para democratizar o acesso à informação falada em tempo real. O sistema funciona captando o áudio do microfone de um palestrante ou professor e, através de processamento de linguagem natural (NLP), converte a fala em texto instantaneamente.)
+(Iremos desenvolver uma aplicação que é uma plataforma de acessibilidade assistiva projetada para democratizar o acesso à informação falada em tempo real. O sistema funciona captando o áudio do microfone de um palestrante ou professor e, através de processamento de linguagem natural (NLP), converte a fala em texto instantaneamente e também iremos implantar o VLibras para aumentar o alcance de pessoas que possam ser auxliadas com o softaware.)
 
 **Encaminhamentos:**
 (O que ficou combinado para a próxima interação?)
