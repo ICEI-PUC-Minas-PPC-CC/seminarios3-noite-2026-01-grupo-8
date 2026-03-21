@@ -38,28 +38,28 @@ A aplicação é uma plataforma de acessibilidade assistiva projetada para democ
 | RNF01 | A aplicação deve ser acessível via navegador web | Acessibilidade |
 | RNF02 | A interface deve ser simples e intuitiva | Usabilidade |
 | RNF03 | A aplicação deve funcionar em dispositivos móveis | Compatibilidade |
-| RNF04 | | |
-| RNF05 | | |
+| RNF04 | A latência da transcrição (fala -> texto) deve ser inferior a 2 segundos | Desempenho |
+| RNF05 | A comunicação entre servidor e cliente deve ser feita via WebSockets | Confiabilidade |
 
 ## 5. Requisitos de Acessibilidade
 
 - [ ] Interface predominantemente visual (ícones, cores, imagens)
-- [ ] Textos curtos e objetivos
-- [ ] Botões grandes e identificáveis
-- [ ] Contraste adequado de cores
+- [x] Textos curtos e objetivos
+- [x] Botões grandes e identificáveis
+- [x] Contraste adequado de cores
 - [ ] Compatível com Libras (se aplicável: vídeos, sinais, glossário)
-- [ ] Sem dependência de áudio para funcionalidades essenciais
+- [x] Sem dependência de áudio para funcionalidades essenciais
 - [ ] Outro: *(especificar)*
 
 ## 6. Tecnologias Escolhidas
 
 | Componente | Tecnologia |
 | ----------- | ----------- |
-| Front-end | |
-| Back-end (se houver) | |
-| Banco de dados (se houver) | |
-| Hospedagem | |
-| Outras ferramentas | |
+| Front-end | React (ou HTML/CSS/JS puro para simplicidade) |
+| Back-end (se houver) | Java com Spring Boot |
+| Banco de dados (se houver) | PostgreSQL |
+| Hospedagem | Render ou Railway |
+| Outras ferramentas | WebSockets (comunicação real-time) e Google Speech-to-Text API |
 
 ## 7. Protótipo / Wireframes
 
@@ -69,11 +69,11 @@ A aplicação é uma plataforma de acessibilidade assistiva projetada para democ
 
 (Quais funcionalidades compõem a versão mínima que pode ser entregue à comunidade?)
 
-- [ ] *(Funcionalidade 1)*
-- [ ] *(Funcionalidade 2)*
-- [ ] *(Funcionalidade 3)*
+- [x] *(Transcrição de áudio para texto via API)*
+- [x] *(ransmissão instantânea do texto para uma URL pública da sala)*
+- [x] *(Interface de leitura com alto contraste e ajuste de fonte)*
 
 ## 9. Funcionalidades Desejáveis (se houver tempo)
 
-- *(Funcionalidade extra 1)*
-- *(Funcionalidade extra 2)*
+- *(Adicionar o VLibras para aumentar a acessebilidade)*
+- *(Exportar o texto da palestra/aula em formato PDF ao final)*
