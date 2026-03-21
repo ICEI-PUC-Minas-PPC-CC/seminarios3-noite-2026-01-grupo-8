@@ -36,20 +36,20 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Título/Tema da aplicação | |
-| Público-alvo | |
-| Nº estimado de usuários | |
-| Faixa etária do público | |
-| Tecnologias previstas | |
-| Hospedagem prevista | |
+| Título/Tema da aplicação | Plataforma de Legendas em Tempo Real |
+| Público-alvo | Pessoas surdas, pessoas com deficiência auditiva, estudantes e participantes de eventos em ambientes sem intérpretes de Libras disponíveis.|
+| Nº estimado de usuários | 10 a 50 usuários simultâneos |
+| Faixa etária do público | Todas idades |
+| Tecnologias previstas | Linguagens: Java(Back) e JavaScript(Front com react ou HTML/CSS) Comunicação: WebSockets e Processamento de Voz: Google Cloud Speech-to-Text API ou OpenAI Whisper API |
+
+| Hospedagem prevista | Google Cloud Platform (GCP) ou Heroku (pela facilidade de integração com APIs de áudio) |
 
 ### Breve descrição da aplicação e sua finalidade
 
-(Nossa apresentação sera uma plataforma de acessibilidade assistiva voltada ao ensino e prática da computação. O seu objetivo principal é democratizar o  desenvolvimento de tecnologia, oferecendo ferramentas adaptativas (como comandos de voz e interfaces simplificadas) que permitam a pessoas com deficiência aprender programação e utilizar sistemas complexos com autonomia, promovendo sua inclusão digital e no mercado de trabalho de TI.)
+A aplicação é uma plataforma de acessibilidade assistiva projetada para democratizar o acesso à informação falada em tempo real. O sistema funciona captando o áudio do microfone de um palestrante ou professor e, através de processamento de linguagem natural (NLP), converte a fala em texto instantaneamente.
 
 ## 4. Levantamento de Demandas da Comunidade
-
-(Descreva como as demandas foram levantadas — reuniões presenciais, reuniões online, conversa com responsável, questionário, etc. — e como a aplicação proposta atende a essas demandas.)
+Levamos em conta a comunidade e pensamos em como poderiamos agragegar a ela, e então chegamos a essa ideia de software
 
 ### Registro de contatos com a comunidade
 
