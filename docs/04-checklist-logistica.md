@@ -1,8 +1,8 @@
 # 04- — Checklist de Preparação e Logística
 
-> **Aplicação:** *(preencher)*  
-> **Data prevista para entrega:** *(preencher)*  
-> **Local:** *(preencher)*
+> **Aplicação:** *Plataforma de Legendas em Tempo Real*  
+> **Data prevista para entrega:** *16/05*  
+> **Local:** *PUCMINAS*
 
 ---
 
