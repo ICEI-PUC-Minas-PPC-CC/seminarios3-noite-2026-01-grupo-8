@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TranscreveAí - Sala de Aula</title>
+    <style>
+        /* Requisitos: Alto Contraste e Acessibilidade */
+        body {
+            background-color: #121212;
+            color: #FFD700; /* Texto amarelo para legibilidade */
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        #legenda-container {
+            width: 90%;
+            max-width: 800px;
+            height: 60vh;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 2.2rem;
+            overflow-y: auto;
+            background-color: #1e1e1e;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .vw-plugin-wrapper { z-index: 9999; } 
+    </style>
+</head>
+<body>
+
+    <h1>TranscreveAí 🎙️</h1>
+
+    <div id="legenda-container">
+        Conectando ao servidor...
+    </div>
+
+    <button id="btn-iniciar">Iniciar Transcrição</button>
+
+    <!-- VLIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+
+    <script>
+        const btnIniciar = document.getElementById('btn-iniciar');
+        const containerLegenda = document.getElementById('legenda-container');
+
+        // --- CONEXÃO WEBSOCKET COM O BACKEND JAVA ---
+        // Conecta no endpoint que você configurou no WebSocketConfig.java
+        const socket = new WebSocket('ws://localhost:8080/legenda');
+
+        socket.onopen = () => {
+            containerLegenda.innerHTML = "Conectado. Clique em Iniciar para legendar.";
+        };
+
+        socket.onmessage = (event) => {
+            // Recebe a legenda do servidor e atualiza a tela de todos na sala
+            containerLegenda.innerHTML = event.data;
+            containerLegenda.scrollTop = containerLegenda.scrollHeight;
+        };
+
+        socket.onerror = (error) => {
+            containerLegenda.innerHTML = "Erro ao conectar no servidor Java. Verifique se o backend está rodando.";
+        };
+
+        // --- LÓGICA DE RECONHECIMENTO DE VOZ ---
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+        if (SpeechRecognition) {
+            const recognition = new SpeechRecognition();
+            recognition.lang = 'pt-BR';
+            recognition.continuous = true;
+            recognition.interimResults = true;
+
+            let textoFinal = '';
+
+            recognition.onresult = (event) => {
+                let textoParcial = '';
+                for (let i = event.resultIndex; i < event.results.length; i++) {
+                    if (event.results[i].isFinal) {
+                        textoFinal += event.results[i][0].transcript + '. <br><br>';
+                    } else {
+                        textoParcial += event.results[i][0].transcript;
+                    }
+                }
+
+                // Gera o conteúdo completo
+                const conteudo = textoFinal + '<span style="color: #888;">' + textoParcial + '</span>';
+                
+                // Envia para o servidor Java (que por sua vez distribui via socket.onmessage acima)
+                if (socket.readyState === WebSocket.OPEN) {
+                    socket.send(conteudo);
+                }
+            };
+
+            btnIniciar.addEventListener('click', () => {
+                if (btnIniciar.innerText === 'Iniciar Transcrição') {
+                    recognition.start();
+                    btnIniciar.innerText = 'Parar Transcrição';
+                    btnIniciar.style.backgroundColor = '#f44336';
+                } else {
+                    recognition.stop();
+                    btnIniciar.innerText = 'Iniciar Transcrição';
+                    btnIniciar.style.backgroundColor = '#4CAF50';
+                }
+            });
+
+        } else {
+            containerLegenda.innerHTML = "Navegador não suporta Web Speech API.";
+        }
+    </script>
+</body>
+</html>
