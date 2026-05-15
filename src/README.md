@@ -29,8 +29,6 @@ Clique em "Iniciar Transcrição" e autorize o uso do microfone no navegador.
 ```
 
 ## Estrutura do Código
-
-```
 src/
 ├── backend/
 │   ├── src/main/java/com/example/demo/
@@ -39,7 +37,8 @@ src/
 │   └── pom.xml
 └── frontend/
 ├── index.html
-```
+``
+
 
 *(Java 17, Spring Boot, WebSockets, HTML, JS, Web Speech API e VLibra)*
 
