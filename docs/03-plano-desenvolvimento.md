@@ -71,4 +71,4 @@ O deploy será realizado na plataforma **Render** para o serviço de backend (Ja
 | :--- | :--- |
 | WhatsApp | Comunicação diária |
 | GitHub Projects | Controle de tarefas |
-| Google Meet | Reuniões semanais de alinhamento |
+
